@@ -3,7 +3,7 @@
 
 :root{
     --bg-color:#2E073F;
-    --cor-primaria:#7A1CAC;
+    --cor-primaria:#be96d4;
     --cor-secundaria:#AD49E1;
     --cor-terceira:#EBD3F8;
     --font:"Nunito Sans", sans-serif;
@@ -66,3 +66,24 @@ footer{
     margin-top: 2rem;
     font-family: var(--font);
 }
+
+.graficos-container{
+    margin: 5rem;
+}
+
+.graficos-container__texto{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--cor-secundaria) solid 5px;
+    border-radius: 10px;
+
+}
+
+span{
+    font-style: oblique;
+    outline-width: bold;
+    color: darkmagenta;
+    font-family: cursive;
+}
+
